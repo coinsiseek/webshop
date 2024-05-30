@@ -4,9 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My React Webstore</title>
+  <!-- Load React -->
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <!-- Load ReactDOM -->
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+  <!-- Load Babel for JSX transformation -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
   <div id="root"></div>
-  <script src="app.js"></script>
+  <!-- Load your React component -->
+  <script type="text/babel" src="app.js"></script>
 </body>
 </html>
